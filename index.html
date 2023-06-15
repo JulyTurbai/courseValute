@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Currency</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="currency">
+            <div class="header">
+                <div class="logo">fi</div>
+                <h2>Конвертер валют</h2>
+            </div>
+            <div class="info">
+                <div class="viev">
+                    <form class="form" name="nal">
+                        <select name="money" id="money">
+                            <option value="нал">Нал.</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="data"></div>
+            </div>
+            <form class="form-currency" name="currency-form">
+                <p>Меняю</p>
+                <fieldset>
+                    <div class="input">
+                        <input id="number" class="number" type="number">
+                        <select class="valute" name="valute" id="valute">
+                            <option value="gbp">UAH</option>
+                        </select>
+                    </div>
+                    <div class="buttons">
+                        <button class="show-currency" type="submit">=</button>
+                        <button class="arrows">
+                            <img src="img/arrow.png" alt="">
+                        </p>
+                        </button>
+                    </div>
+                    <p>Получаю</p>
+                    <div class="input">
+                        <input id="result" class="result" type="number">
+                        <select class="control" name="valute" id="select">
+                            <option value="gbp">GBP</option>
+                            <option value="usd">USD</option>
+                            <option value="eur">EUR</option>
+                        </select>
+                    </div>
+                </fieldset>
+            </form>
+        </div> 
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>     
+    <script src="js/main.js"></script>
+</body>
+</html>
